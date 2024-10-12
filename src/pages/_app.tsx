@@ -115,8 +115,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   );
 }
 
-MyApp.getInitialProps = async (appContext: AppContext) => {
-  const appProps = await App.getInitialProps(appContext);
-
-  return { ...appProps };
-};
+// MyApp.getInitialProps = async (appContext: AppContext) => {
+//   const appProps = await App.getInitialProps(appContext);
+//
+//   return { ...appProps };
+// };
